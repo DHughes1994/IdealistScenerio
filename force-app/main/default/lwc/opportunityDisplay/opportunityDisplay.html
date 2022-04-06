@@ -1,0 +1,11 @@
+<template>
+    <c-custom-data-table
+            key-field="id"
+            data={data}
+            columns={columns}
+            hide-checkbox-column="True"
+            sorted-by={sortedBy}
+            sorted-direction={sortedDirection}
+            onsort={updateColumnSorting}>
+    </c-custom-data-table>
+</template>
